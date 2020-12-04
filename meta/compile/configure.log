@@ -1,0 +1,480 @@
+❯ ./configure --prefix=/opt/jemalloc                                                                                                                                                                                master ◼
+checking for xsltproc... /opt/libxslt/bin/xsltproc
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether compiler is cray... no
+checking whether compiler supports -std=gnu11... yes
+checking whether compiler supports -Wall... yes
+checking whether compiler supports -Wextra... yes
+checking whether compiler supports -Wshorten-64-to-32... no
+checking whether compiler supports -Wsign-compare... yes
+checking whether compiler supports -Wundef... yes
+checking whether compiler supports -Wno-format-zero-length... yes
+checking whether compiler supports -pipe... yes
+checking whether compiler supports -g3... yes
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking whether g++ supports C++14 features by default... yes
+checking whether compiler supports -Wall... yes
+checking whether compiler supports -Wextra... yes
+checking whether compiler supports -g3... yes
+checking whether libstdc++ linkage is compilable... yes
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking size of void *... 8
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+checking size of intmax_t... 8
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking whether pause instruction is compilable... yes
+checking number of significant virtual address bits... 48
+checking for ar... ar
+checking for nm... nm
+checking for gawk... no
+checking for mawk... mawk
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking whether malloc_usable_size definition can use const argument... no
+checking for library containing log... -lm
+checking whether __attribute__ syntax is compilable... yes
+checking whether compiler supports -fvisibility=hidden... yes
+checking whether compiler supports -fvisibility=hidden... yes
+checking whether compiler supports -Werror... yes
+checking whether compiler supports -herror_on_warning... no
+checking whether tls_model attribute is compilable... yes
+checking whether compiler supports -Werror... yes
+checking whether compiler supports -herror_on_warning... no
+checking whether alloc_size attribute is compilable... yes
+checking whether compiler supports -Werror... yes
+checking whether compiler supports -herror_on_warning... no
+checking whether format(gnu_printf, ...) attribute is compilable... yes
+checking whether compiler supports -Werror... yes
+checking whether compiler supports -herror_on_warning... no
+checking whether format(printf, ...) attribute is compilable... yes
+checking whether compiler supports -Werror... yes
+checking whether compiler supports -herror_on_warning... no
+checking whether format(printf, ...) attribute is compilable... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for ranlib... ranlib
+checking for ld... /usr/bin/ld
+checking for autoconf... /opt/autoconf/bin/autoconf
+checking for memalign... yes
+checking for valloc... yes
+checking for __libc_calloc... yes
+checking for __libc_free... yes
+checking for __libc_malloc... yes
+checking for __libc_memalign... yes
+checking for __libc_realloc... yes
+checking for __libc_valloc... yes
+checking for __posix_memalign... no
+checking whether compiler supports -O3... yes
+checking whether compiler supports -O3... yes
+checking whether compiler supports -funroll-loops... yes
+checking configured backtracing method... N/A
+checking for sbrk... yes
+checking whether utrace(2) is compilable... no
+checking whether a program using __builtin_unreachable is compilable... yes
+checking whether a program using __builtin_ffsl is compilable... yes
+checking whether a program using __builtin_popcountl is compilable... yes
+checking LG_PAGE... 12
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_create in -lpthread... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for dlsym... no
+checking for dlsym in -ldl... yes
+checking whether pthread_atfork(3) is compilable... yes
+checking whether pthread_setname_np(3) is compilable... yes
+checking for library containing clock_gettime... none required
+checking whether clock_gettime(CLOCK_MONOTONIC_COARSE, ...) is compilable... yes
+checking whether clock_gettime(CLOCK_MONOTONIC, ...) is compilable... yes
+checking whether mach_absolute_time() is compilable... no
+checking whether compiler supports -Werror... yes
+checking whether syscall(2) is compilable... yes
+checking for secure_getenv... yes
+checking for sched_getcpu... yes
+checking for sched_setaffinity... yes
+checking for issetugid... no
+checking for _malloc_thread_cleanup... no
+checking for _pthread_mutex_init_calloc_cb... no
+checking for TLS... yes
+checking whether C11 atomics is compilable... yes
+checking whether GCC __atomic atomics is compilable... yes
+checking whether GCC 8-bit __atomic atomics is compilable... yes
+checking whether GCC __sync atomics is compilable... yes
+checking whether GCC 8-bit __sync atomics is compilable... yes
+checking whether Darwin OSAtomic*() is compilable... no
+checking whether madvise(2) is compilable... yes
+checking whether madvise(..., MADV_FREE) is compilable... yes
+checking whether madvise(..., MADV_DONTNEED) is compilable... yes
+checking whether madvise(..., MADV_DO[NT]DUMP) is compilable... yes
+checking whether madvise(..., MADV_[NO]HUGEPAGE) is compilable... yes
+checking for __builtin_clz... yes
+checking whether Darwin os_unfair_lock_*() is compilable... no
+checking whether glibc malloc hook is compilable... yes
+checking whether glibc memalign hook is compilable... yes
+checking whether pthreads adaptive mutexes is compilable... yes
+checking whether compiler supports -D_GNU_SOURCE... yes
+checking whether compiler supports -Werror... yes
+checking whether compiler supports -herror_on_warning... no
+checking whether strerror_r returns char with gnu source is compilable... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating jemalloc.pc
+config.status: creating doc/html.xsl
+config.status: creating doc/manpages.xsl
+config.status: creating doc/jemalloc.xml
+config.status: creating include/jemalloc/jemalloc_macros.h
+config.status: creating include/jemalloc/jemalloc_protos.h
+config.status: creating include/jemalloc/jemalloc_typedefs.h
+config.status: creating include/jemalloc/internal/jemalloc_preamble.h
+config.status: creating test/test.sh
+config.status: creating test/include/test/jemalloc_test.h
+config.status: creating config.stamp
+config.status: creating bin/jemalloc-config
+config.status: creating bin/jemalloc.sh
+config.status: creating bin/jeprof
+config.status: creating include/jemalloc/jemalloc_defs.h
+config.status: include/jemalloc/jemalloc_defs.h is unchanged
+config.status: creating include/jemalloc/internal/jemalloc_internal_defs.h
+config.status: include/jemalloc/internal/jemalloc_internal_defs.h is unchanged
+config.status: creating test/include/test/jemalloc_test_defs.h
+config.status: test/include/test/jemalloc_test_defs.h is unchanged
+config.status: executing include/jemalloc/internal/public_symbols.txt commands
+config.status: executing include/jemalloc/internal/private_symbols.awk commands
+config.status: executing include/jemalloc/internal/private_symbols_jet.awk commands
+config.status: executing include/jemalloc/internal/public_namespace.h commands
+config.status: executing include/jemalloc/internal/public_unnamespace.h commands
+config.status: executing include/jemalloc/jemalloc_protos_jet.h commands
+config.status: executing include/jemalloc/jemalloc_rename.h commands
+config.status: executing include/jemalloc/jemalloc_mangle.h commands
+config.status: executing include/jemalloc/jemalloc_mangle_jet.h commands
+config.status: executing include/jemalloc/jemalloc.h commands
+===============================================================================
+jemalloc version   : 0.0.0-0-g0000000000000000000000000000000000000000
+library revision   : 2
+
+CONFIG             : --prefix=/opt/jemalloc
+CC                 : gcc
+CONFIGURE_CFLAGS   : -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops
+SPECIFIED_CFLAGS   : 
+EXTRA_CFLAGS       : 
+CPPFLAGS           : -D_GNU_SOURCE -D_REENTRANT
+CXX                : g++
+CONFIGURE_CXXFLAGS : -Wall -Wextra -g3 -fvisibility=hidden -O3
+SPECIFIED_CXXFLAGS : 
+EXTRA_CXXFLAGS     : 
+LDFLAGS            : 
+EXTRA_LDFLAGS      : 
+DSO_LDFLAGS        : -shared -Wl,-soname,$(@F)
+LIBS               : -lm -lstdc++ -pthread -ldl
+RPATH_EXTRA        : 
+
+XSLTPROC           : /opt/libxslt/bin/xsltproc
+XSLROOT            : /usr/share/xml/docbook/stylesheet/docbook-xsl
+
+PREFIX             : /opt/jemalloc
+BINDIR             : /opt/jemalloc/bin
+DATADIR            : /opt/jemalloc/share
+INCLUDEDIR         : /opt/jemalloc/include
+LIBDIR             : /opt/jemalloc/lib
+MANDIR             : /opt/jemalloc/share/man
+
+srcroot            : 
+abs_srcroot        : /opt/jemalloc/archive/source/jemalloc-5.2.1/
+objroot            : 
+abs_objroot        : /opt/jemalloc/archive/source/jemalloc-5.2.1/
+
+JEMALLOC_PREFIX    : 
+JEMALLOC_PRIVATE_NAMESPACE
+                   : je_
+install_suffix     : 
+malloc_conf        : 
+documentation      : 1
+shared libs        : 1
+static libs        : 1
+autogen            : 0
+debug              : 0
+stats              : 1
+experimetal_smallocx : 0
+prof               : 0
+prof-libunwind     : 0
+prof-libgcc        : 0
+prof-gcc           : 0
+fill               : 1
+utrace             : 0
+xmalloc            : 0
+log                : 0
+lazy_lock          : 0
+cache-oblivious    : 1
+cxx                : 1
+===============================================================================
+root@debian /opt/jemalloc/archive/source/jemalloc-5.2.1
+❯ make                                                                                                                                                                                                              master ◼
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/jemalloc.sym.o src/jemalloc.c
+nm -a src/jemalloc.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/jemalloc.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/arena.sym.o src/arena.c
+nm -a src/arena.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/arena.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/background_thread.sym.o src/background_thread.c
+nm -a src/background_thread.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/background_thread.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/base.sym.o src/base.c
+nm -a src/base.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/base.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/bin.sym.o src/bin.c
+nm -a src/bin.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/bin.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/bitmap.sym.o src/bitmap.c
+nm -a src/bitmap.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/bitmap.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/ckh.sym.o src/ckh.c
+nm -a src/ckh.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/ckh.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/ctl.sym.o src/ctl.c
+nm -a src/ctl.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/ctl.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/div.sym.o src/div.c
+nm -a src/div.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/div.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/extent.sym.o src/extent.c
+nm -a src/extent.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/extent.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/extent_dss.sym.o src/extent_dss.c
+nm -a src/extent_dss.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/extent_dss.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/extent_mmap.sym.o src/extent_mmap.c
+nm -a src/extent_mmap.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/extent_mmap.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/hash.sym.o src/hash.c
+nm -a src/hash.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/hash.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/hook.sym.o src/hook.c
+nm -a src/hook.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/hook.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/large.sym.o src/large.c
+nm -a src/large.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/large.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/log.sym.o src/log.c
+nm -a src/log.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/log.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/malloc_io.sym.o src/malloc_io.c
+nm -a src/malloc_io.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/malloc_io.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/mutex.sym.o src/mutex.c
+nm -a src/mutex.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/mutex.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/mutex_pool.sym.o src/mutex_pool.c
+nm -a src/mutex_pool.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/mutex_pool.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/nstime.sym.o src/nstime.c
+nm -a src/nstime.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/nstime.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/pages.sym.o src/pages.c
+nm -a src/pages.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/pages.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/prng.sym.o src/prng.c
+nm -a src/prng.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/prng.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/prof.sym.o src/prof.c
+nm -a src/prof.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/prof.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/rtree.sym.o src/rtree.c
+nm -a src/rtree.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/rtree.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/safety_check.sym.o src/safety_check.c
+nm -a src/safety_check.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/safety_check.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/stats.sym.o src/stats.c
+nm -a src/stats.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/stats.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/sc.sym.o src/sc.c
+nm -a src/sc.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/sc.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/sz.sym.o src/sz.c
+nm -a src/sz.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/sz.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/tcache.sym.o src/tcache.c
+nm -a src/tcache.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/tcache.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/test_hooks.sym.o src/test_hooks.c
+nm -a src/test_hooks.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/test_hooks.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/ticker.sym.o src/ticker.c
+nm -a src/ticker.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/ticker.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/tsd.sym.o src/tsd.c
+nm -a src/tsd.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/tsd.sym
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/witness.sym.o src/witness.c
+nm -a src/witness.sym.o | mawk -f include/jemalloc/internal/private_symbols.awk > src/witness.sym
+/bin/sh include/jemalloc/internal/private_namespace.sh src/jemalloc.sym src/arena.sym src/background_thread.sym src/base.sym src/bin.sym src/bitmap.sym src/ckh.sym src/ctl.sym src/div.sym src/extent.sym src/extent_dss.sym src/extent_mmap.sym src/hash.sym src/hook.sym src/large.sym src/log.sym src/malloc_io.sym src/mutex.sym src/mutex_pool.sym src/nstime.sym src/pages.sym src/prng.sym src/prof.sym src/rtree.sym src/safety_check.sym src/stats.sym src/sc.sym src/sz.sym src/tcache.sym src/test_hooks.sym src/ticker.sym src/tsd.sym src/witness.sym > include/jemalloc/internal/private_namespace.gen.h
+cp include/jemalloc/internal/private_namespace.gen.h include/jemalloc/internal/private_namespace.gen.h
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/jemalloc.pic.o src/jemalloc.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/arena.pic.o src/arena.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/background_thread.pic.o src/background_thread.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/base.pic.o src/base.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/bin.pic.o src/bin.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/bitmap.pic.o src/bitmap.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/ckh.pic.o src/ckh.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/ctl.pic.o src/ctl.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/div.pic.o src/div.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/extent.pic.o src/extent.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/extent_dss.pic.o src/extent_dss.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/extent_mmap.pic.o src/extent_mmap.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/hash.pic.o src/hash.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/hook.pic.o src/hook.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/large.pic.o src/large.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/log.pic.o src/log.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/malloc_io.pic.o src/malloc_io.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/mutex.pic.o src/mutex.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/mutex_pool.pic.o src/mutex_pool.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/nstime.pic.o src/nstime.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/pages.pic.o src/pages.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/prng.pic.o src/prng.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/prof.pic.o src/prof.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/rtree.pic.o src/rtree.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/safety_check.pic.o src/safety_check.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/stats.pic.o src/stats.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/sc.pic.o src/sc.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/sz.pic.o src/sz.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/tcache.pic.o src/tcache.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/test_hooks.pic.o src/test_hooks.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/ticker.pic.o src/ticker.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/tsd.pic.o src/tsd.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/witness.pic.o src/witness.c
+g++ -Wall -Wextra -g3 -fvisibility=hidden -O3 -fPIC -DPIC -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/jemalloc_cpp.pic.o src/jemalloc_cpp.cpp
+gcc -shared -Wl,-soname,libjemalloc.so.2  -o lib/libjemalloc.so.2 src/jemalloc.pic.o src/arena.pic.o src/background_thread.pic.o src/base.pic.o src/bin.pic.o src/bitmap.pic.o src/ckh.pic.o src/ctl.pic.o src/div.pic.o src/extent.pic.o src/extent_dss.pic.o src/extent_mmap.pic.o src/hash.pic.o src/hook.pic.o src/large.pic.o src/log.pic.o src/malloc_io.pic.o src/mutex.pic.o src/mutex_pool.pic.o src/nstime.pic.o src/pages.pic.o src/prng.pic.o src/prof.pic.o src/rtree.pic.o src/safety_check.pic.o src/stats.pic.o src/sc.pic.o src/sz.pic.o src/tcache.pic.o src/test_hooks.pic.o src/ticker.pic.o src/tsd.pic.o src/witness.pic.o src/jemalloc_cpp.pic.o  -lm -lstdc++ -pthread -ldl 
+ln -sf libjemalloc.so.2 lib/libjemalloc.so
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/jemalloc.o src/jemalloc.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/arena.o src/arena.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/background_thread.o src/background_thread.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/base.o src/base.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/bin.o src/bin.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/bitmap.o src/bitmap.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/ckh.o src/ckh.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/ctl.o src/ctl.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/div.o src/div.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/extent.o src/extent.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/extent_dss.o src/extent_dss.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/extent_mmap.o src/extent_mmap.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/hash.o src/hash.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/hook.o src/hook.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/large.o src/large.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/log.o src/log.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/malloc_io.o src/malloc_io.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/mutex.o src/mutex.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/mutex_pool.o src/mutex_pool.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/nstime.o src/nstime.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/pages.o src/pages.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/prng.o src/prng.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/prof.o src/prof.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/rtree.o src/rtree.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/safety_check.o src/safety_check.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/stats.o src/stats.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/sc.o src/sc.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/sz.o src/sz.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/tcache.o src/tcache.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/test_hooks.o src/test_hooks.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/ticker.o src/ticker.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/tsd.o src/tsd.c
+gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -fvisibility=hidden -O3 -funroll-loops -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/witness.o src/witness.c
+g++ -Wall -Wextra -g3 -fvisibility=hidden -O3 -c -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -o src/jemalloc_cpp.o src/jemalloc_cpp.cpp
+ar crus lib/libjemalloc.a src/jemalloc.o src/arena.o src/background_thread.o src/base.o src/bin.o src/bitmap.o src/ckh.o src/ctl.o src/div.o src/extent.o src/extent_dss.o src/extent_mmap.o src/hash.o src/hook.o src/large.o src/log.o src/malloc_io.o src/mutex.o src/mutex_pool.o src/nstime.o src/pages.o src/prng.o src/prof.o src/rtree.o src/safety_check.o src/stats.o src/sc.o src/sz.o src/tcache.o src/test_hooks.o src/ticker.o src/tsd.o src/witness.o src/jemalloc_cpp.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar crus lib/libjemalloc_pic.a src/jemalloc.pic.o src/arena.pic.o src/background_thread.pic.o src/base.pic.o src/bin.pic.o src/bitmap.pic.o src/ckh.pic.o src/ctl.pic.o src/div.pic.o src/extent.pic.o src/extent_dss.pic.o src/extent_mmap.pic.o src/hash.pic.o src/hook.pic.o src/large.pic.o src/log.pic.o src/malloc_io.pic.o src/mutex.pic.o src/mutex_pool.pic.o src/nstime.pic.o src/pages.pic.o src/prng.pic.o src/prof.pic.o src/rtree.pic.o src/safety_check.pic.o src/stats.pic.o src/sc.pic.o src/sz.pic.o src/tcache.pic.o src/test_hooks.pic.o src/ticker.pic.o src/tsd.pic.o src/witness.pic.o src/jemalloc_cpp.pic.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+root@debian /opt/jemalloc/archive/source/jemalloc-5.2.1
+❯ ll                                                                                                                                                                                                                master ◼
+total 836K
+-rwxrwxr-x 1 root root  266 Aug  6  2019 autogen.sh
+drwxrwxr-x 2 root root 4.0K Sep  5 23:34 bin
+drwxrwxr-x 2 root root 4.0K Aug  6  2019 build-aux
+-rw-rw-r-- 1 root root  73K Aug  6  2019 ChangeLog
+-rw-r--r-- 1 root root 117K Sep  5 23:34 config.log
+-rw-r--r-- 1 root root    0 Sep  5 23:34 config.stamp
+-rw-rw-r-- 1 root root    0 Aug  6  2019 config.stamp.in
+-rwxr-xr-x 1 root root  42K Sep  5 23:34 config.status
+-rwxr-xr-x 1 root root 371K Sep  5 23:32 configure
+-rw-rw-r-- 1 root root  73K Aug  6  2019 configure.ac
+-rw-rw-r-- 1 root root 1.7K Aug  6  2019 COPYING
+drwxrwxr-x 2 root root 4.0K Sep  5 23:34 doc
+drwxrwxr-x 4 root root 4.0K Aug  6  2019 include
+-rw-rw-r-- 1 root root  15K Aug  6  2019 INSTALL.md
+-rw-r--r-- 1 root root  377 Sep  5 23:34 jemalloc.pc
+-rw-rw-r-- 1 root root  465 Aug  6  2019 jemalloc.pc.in
+drwxr-xr-x 2 root root 4.0K Sep  5 23:35 lib
+drwxrwxr-x 2 root root 4.0K Aug  6  2019 m4
+-rw-r--r-- 1 root root  24K Sep  5 23:34 Makefile
+-rw-rw-r-- 1 root root  23K Aug  6  2019 Makefile.in
+drwxrwxr-x 4 root root 4.0K Aug  6  2019 msvc
+-rw-rw-r-- 1 root root 1.1K Aug  6  2019 README
+-rwxrwxr-x 1 root root   48 Aug  6  2019 run_tests.sh
+drwxrwxr-x 2 root root 4.0K Aug  6  2019 scripts
+drwxrwxr-x 2 root root  12K Sep  5 23:35 src
+drwxrwxr-x 7 root root 4.0K Sep  5 23:34 test
+-rw-rw-r-- 1 root root 5.8K Aug  6  2019 TUNING.md
+-rw-r--r-- 1 root root   50 Sep  5 23:32 VERSION
+root@debian /opt/jemalloc/archive/source/jemalloc-5.2.1
+❯ git status                                                                                                                                                                                                        master ◼
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../
+
+nothing added to commit but untracked files present (use "git add" to track)
+root@debian /opt/jemalloc/archive/source/jemalloc-5.2.1
+❯ ll                                                                                                                                                                                                                master ◼
+total 836K
+-rwxrwxr-x 1 root root  266 Aug  6  2019 autogen.sh
+drwxrwxr-x 2 root root 4.0K Sep  5 23:34 bin
+drwxrwxr-x 2 root root 4.0K Aug  6  2019 build-aux
+-rw-rw-r-- 1 root root  73K Aug  6  2019 ChangeLog
+-rw-r--r-- 1 root root 117K Sep  5 23:34 config.log
+-rw-r--r-- 1 root root    0 Sep  5 23:34 config.stamp
+-rw-rw-r-- 1 root root    0 Aug  6  2019 config.stamp.in
+-rwxr-xr-x 1 root root  42K Sep  5 23:34 config.status
+-rwxr-xr-x 1 root root 371K Sep  5 23:32 configure
+-rw-rw-r-- 1 root root  73K Aug  6  2019 configure.ac
+-rw-rw-r-- 1 root root 1.7K Aug  6  2019 COPYING
+drwxrwxr-x 2 root root 4.0K Sep  5 23:34 doc
+drwxrwxr-x 4 root root 4.0K Aug  6  2019 include
+-rw-rw-r-- 1 root root  15K Aug  6  2019 INSTALL.md
+-rw-r--r-- 1 root root  377 Sep  5 23:34 jemalloc.pc
+-rw-rw-r-- 1 root root  465 Aug  6  2019 jemalloc.pc.in
+drwxr-xr-x 2 root root 4.0K Sep  5 23:35 lib
+drwxrwxr-x 2 root root 4.0K Aug  6  2019 m4
+-rw-r--r-- 1 root root  24K Sep  5 23:34 Makefile
+-rw-rw-r-- 1 root root  23K Aug  6  2019 Makefile.in
+drwxrwxr-x 4 root root 4.0K Aug  6  2019 msvc
+-rw-rw-r-- 1 root root 1.1K Aug  6  2019 README
+-rwxrwxr-x 1 root root   48 Aug  6  2019 run_tests.sh
+drwxrwxr-x 2 root root 4.0K Aug  6  2019 scripts
+drwxrwxr-x 2 root root  12K Sep  5 23:35 src
+drwxrwxr-x 7 root root 4.0K Sep  5 23:34 test
+-rw-rw-r-- 1 root root 5.8K Aug  6  2019 TUNING.md
+-rw-r--r-- 1 root root   50 Sep  5 23:32 VERSION
+root@debian /opt/jemalloc/archive/source/jemalloc-5.2.1
+❯ make install                                                                                                                                                                                                      master ◼
+/usr/bin/install -c -d /opt/jemalloc/bin
+/usr/bin/install -c -m 755 bin/jemalloc-config /opt/jemalloc/bin
+/usr/bin/install -c -m 755 bin/jemalloc.sh /opt/jemalloc/bin
+/usr/bin/install -c -m 755 bin/jeprof /opt/jemalloc/bin
+/usr/bin/install -c -d /opt/jemalloc/include/jemalloc
+/usr/bin/install -c -m 644 include/jemalloc/jemalloc.h /opt/jemalloc/include/jemalloc
+/usr/bin/install -c -d /opt/jemalloc/lib
+/usr/bin/install -c -m 755 lib/libjemalloc.so.2 /opt/jemalloc/lib
+ln -sf libjemalloc.so.2 /opt/jemalloc/lib/libjemalloc.so
+/usr/bin/install -c -d /opt/jemalloc/lib
+/usr/bin/install -c -m 755 lib/libjemalloc.a /opt/jemalloc/lib
+/usr/bin/install -c -m 755 lib/libjemalloc_pic.a /opt/jemalloc/lib
+/usr/bin/install -c -d /opt/jemalloc/lib/pkgconfig
+/usr/bin/install -c -m 644 jemalloc.pc /opt/jemalloc/lib/pkgconfig
+/opt/libxslt/bin/xsltproc -o doc/jemalloc.html doc/html.xsl doc/jemalloc.xml
+/opt/libxslt/bin/xsltproc -o doc/jemalloc.3 doc/manpages.xsl doc/jemalloc.xml
+Note: Writing jemalloc.3
+/usr/bin/install -c -d /opt/jemalloc/share/doc/jemalloc
+/usr/bin/install -c -m 644 doc/jemalloc.html /opt/jemalloc/share/doc/jemalloc
+/usr/bin/install -c -d /opt/jemalloc/share/man/man3
+/usr/bin/install -c -m 644 doc/jemalloc.3 /opt/jemalloc/share/man/man3
+
